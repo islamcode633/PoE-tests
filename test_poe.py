@@ -78,6 +78,7 @@ class FlatStructParser:
 
 class GeneralRequests:
     """ General necessary requests """
+
     def __init__(self) -> None:
         self.common_url: str = 'http://192.168.127.253/json_rpc'
         with Session() as session:
